@@ -1,33 +1,48 @@
-## 📌 Project Overview
-This project analyzes customer churn behavior in a banking dataset to identify key drivers of customer attrition and support retention strategies.
+# Bank Customer Churn Analysis
 
-## 🎯 Business Problem
-The bank wanted to understand why customers are leaving and identify high-risk customer segments to reduce churn and improve retention.
+## Project Overview
+This project analyzes customer churn behavior in a banking dataset to identify high-risk customer segments and key factors influencing customer attrition. The analysis helps stakeholders design targeted retention strategies.
 
-## 🛠 Tools & Technologies
-- Excel (Data Cleaning & EDA)
-- SQL Server (Data Analysis)
-- Power BI (Dashboard & Visualization)
-- DAX (KPI Calculations)
+## Business Problem
+Customer churn directly impacts revenue. The objective was to identify why customers leave and detect patterns across demographics, engagement, and product usage.
 
-## 📊 Key KPIs
-- Total Customers
-- Total Churned Customers
-- Churn Rate (%)
-- Active Customers
-- Average Balance
+## Tools & Technologies
+- Excel – Data Cleaning & Exploratory Analysis
+- SQL Server – Data Analysis & KPI Calculation
+- Power BI – Dashboard & Visualization
+- DAX – Measures & KPI creation
 
-## 📈 Dashboard
+## Key KPIs
+- Total Customers: 10,000
+- Total Churned Customers: 2,037
+- Churn Rate: 20.37%
+- Active Customers: 5,151
+- Average Balance: 76.47K
+
+## Dashboard
 ![Dashboard](images/dashboard.png)
 
-## 🔍 Key Insights
-- Germany has the highest churn rate (~32%)
-- Senior customers show highest churn (~44%)
-- Customers with 3–4 products have higher churn risk
+## Key Insights
+- Germany has the highest churn rate (~32%) compared to other regions
+- Senior customers show significantly higher churn (~44%)
+- Customers with 3–4 products demonstrate higher churn risk
 - Mid and Old tenure customers churn around 20%
+- Inactive customers churn more than active customers
 - Overall churn rate is 20.37%
 
-## 📂 Project Structure
+## Business Recommendations
+- Focus retention campaigns on high-risk regions like Germany
+- Improve engagement for inactive customers
+- Promote multi-product usage to increase stickiness
+- Introduce loyalty programs for senior customers
+
+## Project Workflow
+1. Data Cleaning and preprocessing using Excel
+2. Data analysis and KPI calculation using SQL Server
+3. Dashboard development and visualization in Power BI
+4. Business insights generation and interpretation
+
+## Project Structure
 bank-customer-churn-analysis/
 │
 ├── data/
@@ -46,12 +61,9 @@ bank-customer-churn-analysis/
 │   └── dashboard.png
 │
 └── README.md
-## 🚀 Business Impact
-This analysis helps identify high-risk customers and supports targeted retention strategies to reduce customer churn.
 
-## 📎 Files Included
-- Clean dataset (CSV)
-- Excel EDA file
-- SQL query file
-- Power BI dashboard
-- Dashboard screenshot
+## Business Impact
+This analysis helps identify high-risk customers and enables data-driven retention strategies to reduce churn and improve customer engagement.
+
+## Author
+Data Analyst Project – Bank Customer Churn Analysis
