@@ -20,7 +20,7 @@ Customer churn directly impacts revenue. The objective was to identify why custo
 - Average Balance: 76.47K
 
 ## Dashboard
-![Dashboard](images/dashboard.png)
+![Dashboard](https://github.com/reshmamishra24/Bank-customer-churn-analysis/blob/main/dashboard.png)
 
 ## Key Insights
 - Germany has the highest churn rate (~32%) compared to other regions
