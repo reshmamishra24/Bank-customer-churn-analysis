@@ -181,15 +181,14 @@ FROM AgeChurn;
 /* 
     SQL Analysis - Key Insights 
 
-    1.
-
-    2.
-
-    3.
-
-    4.
-
-    5.
+-- 1. Germany has the highest churn rate (~32%) compared to other regions
+-- 2. Senior customers show the highest churn (~44%), indicating high-risk segment
+-- 3. Inactive customers churn significantly more than active customers
+-- 4. Customers with fewer products have higher churn, showing weak engagement
+-- 5. Overall churn rate is around 20.37%, indicating moderate customer attrition
 
     Conclusion : 
+
+ --  Customer churn is mainly driven by low engagement, fewer product usage, and high-risk segments like senior and inactive customers
+ --  The bank should focus on improving engagement and targeting high-risk customers to reduce churn
 */
